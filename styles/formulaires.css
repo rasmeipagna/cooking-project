@@ -1,0 +1,62 @@
+form{
+	margin-top:10px;
+	padding-left:260px;
+	width:500px;
+	height:550px;
+	background-color:white;
+	overflow:hidden;
+
+}
+
+form label{
+	width : 130px;
+	height :16px;
+	display:block;
+	color:#DD4132;
+	font-family: 'Poiret One', cursive;
+	margin-right:20px;
+	text-align:right;
+	float:left;
+
+}
+
+form input{
+	width:300px;
+	border: none;
+	border-bottom: 1px dashed #DD4132;
+	color :#90D2C6;
+	font-family: 'Poiret One', cursive;
+	font-size: 14px;
+}
+
+#btnsubmit {
+	color:#DD4132;
+	margin-left:130px;
+	width:90px;
+}
+#btnreset {
+	color:#DD4132;
+	width:90px;
+}
+
+form textarea{
+	width:450px;
+	height:150px;
+	background-color:white;
+	border :1px solid grey;
+	font-size:14px;
+	font-family: 'Poiret One', cursive;
+	color:#90D2C6;
+
+}
+form h1{
+
+	color:#DD4132;
+	font-family: 'Poiret One', cursive;
+	font-size :20px;
+}
+form p{
+	margin-left:14px;
+	color:#DD4132;
+	font-family: 'Poiret One', cursive;
+}

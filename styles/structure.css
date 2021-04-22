@@ -1,0 +1,163 @@
+body{
+	margin:0;
+	background:transparent url(../images/background.png)left top repeat;
+}
+#content{
+	width: 980px;
+	/*height:700px;*/
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+header{
+	/*width: 980px;*/
+	height: 200px;
+	background-color: yellow;
+}
+
+#menu{
+	/*width:980px;*/
+	height: 80px;
+	float:left;	
+}
+
+ul,
+li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#menu ul{
+	/*width:960px;*/
+	height:80px;
+	line-height:20px;
+	vertical-align:middle;
+	margin:20px;
+
+}
+
+#menu li{
+	margin:10px 20px 20px 150px;
+	height:80px;
+	line-height:15px;
+	vertical-align:middle;
+	font-size:30px;
+	font-family: 'Poiret One', cursive;
+	display:block;
+
+	float: left;
+}
+
+#menu a,
+	a:link,
+	a:visited,
+	a:active,
+	a:hover{
+
+		color:#DD4132;
+		text-decoration:none;
+	}
+
+#menu a:hover{
+
+		color: #FFA58A;
+		text-decoration:underline;
+}
+
+#menu a:active, #menu a.ici{
+
+		color:#90D2C6;
+}
+#principale{
+	width: 980px;
+	/*height:700px;*/
+	font-family: 'Poiret One', cursive;
+	background-color: green;
+}
+
+
+#bloc1content {
+
+	width: 980px;
+	min-height:300px;
+	background-color: transparent;
+	float : left;
+}
+#bloc2{
+	width: 980px;
+	min-height:600px;
+	background-color: white;
+	float : left;
+}
+#bloc2 img{
+	margin:15px 15px 15px 15px;
+	float:left;
+}
+
+#bloc2 h1{
+	font-size:20px;
+}
+
+#bloc2 .liste1 {
+
+	float:left;
+}
+
+#bloc2 .liste2{
+	margin-left:20px;
+	float:left;
+}
+
+#bloc2 .text{
+
+	clear:left;
+}
+
+#bloc3{
+	width: 980px;
+	min-height: 200px;
+	height: 200px;
+	position:relative;
+	text-align:center;
+	font-family: 'Poiret One', cursive;
+	color:white;
+	background: #FFA58A url(../images/logocuisine.png)50px no-repeat;
+	z-index:10;
+  	opacity:0.7;
+  	filter:alpha(opacity=50);	
+	overflow:hidden;
+	float : left;
+}
+
+#bloc3 p{
+	margin: 40px 30px 40px 30px;
+	font-size: 20px
+
+}
+
+#bloc3 a{
+
+	color:white;
+}
+ #bloc3 .underline{
+
+	text-decoration:underline;
+}
+
+footer{
+	width: 980px;
+	height: 80px;
+	background-color: blue;
+	clear: left;
+}
+
+
+article{
+	margin: 20px;
+}
+
+h1{
+	font-size: 18px;
+}

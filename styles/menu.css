@@ -1,0 +1,54 @@
+#menu{
+	/*width:980px;*/
+	height: 80px;
+	float:left;	
+}
+
+ul,
+li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#menu ul{
+	/*width:960px;*/
+	height:80px;
+	line-height:20px;
+	vertical-align:middle;
+	margin:20px;
+
+}
+
+#menu li{
+	margin:10px 20px 20px 100px;
+	height:80px;
+	line-height:15px;
+	vertical-align:middle;
+	font-size:30px;
+	font-family: 'Poiret One', cursive;
+	display:block;
+
+	float: left;
+}
+
+#menu a,
+	a:link,
+	a:visited,
+	a:active,
+	a:hover{
+
+		color:#DD4132;
+		text-decoration:none;
+	}
+
+#menu a:hover{
+
+		color: #FFA58A;
+		text-decoration:underline;
+}
+
+#menu a:active, #menu a.ici{
+
+		color:#90D2C6;
+}

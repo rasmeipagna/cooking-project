@@ -1,0 +1,38 @@
+footer{
+	/*width:980px;*/
+	height: 80px;
+	background: url(../images/background.png) left top repeat;
+}
+
+
+footer p{
+	margin: 0;
+	height :80px;
+	font-family: 'Poiret One', cursive;
+	color: #FAE03C;
+	vertical-align: middle;
+	line-height: 80px;
+	text-align: center;
+}
+
+footer a,
+footer a:link,
+footer a:visited,
+footer a:active,
+footer a:hover{
+	color:#DD4132;
+	text-decoration:none;
+	font-size:14px;
+	font-family: 'Poiret One', cursive;
+
+}
+
+footer a:hover{
+	color: #FFA58A;
+	text-decoration:underline;
+}
+
+footer a:active{
+	color: #90D2C6;
+	text-decoration:underline;
+}
